@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>TSF Bank - Basic Banking System</title>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sga384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <style type="text/css">
+        .navbar {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            text-align: center;
+            box-shadow: 10px 10px 10px rgb(218, 221, 236);
+        }
+        
+        nav .navbar-nav .active a {
+            color: rgb(52, 27, 196);
+        }
+        
+        nav .navbar-nav .active {
+            color: rgb(52, 27, 196);
+        }
+        
+        nav .navbar-brand {
+            font-size: 35px;
+            font-weight: 900;
+            letter-spacing: 5px;
+            margin-right: 80px;
+            text-shadow: 3px 3px rgb(56, 5, 114);
+            padding: 0 0rem 0 1rem;
+            color: rgb(212, 23, 33);
+            text-shadow: 2px 2px rgb(5, 42, 136);
+        }
+        
+        nav .parent-link {
+            font-size: 20px;
+            position: relative;
+            font-weight: 900;
+            color: rgb(8, 3, 41);
+            letter-spacing: 4px;
+            font: normal 500;
+            font-family: 'Amatic SC', cursive;
+            text-transform: uppercase;
+            margin-left: 35px;
+            margin-right: 35px;
+            text-align: center;
+        }
+        
+        nav .parent-link:hover {
+            font-size: 20px;
+            font-weight: 700;
+            color: rgb(214, 12, 12);
+            letter-spacing: 4px;
+            font: normal 500;
+            text-transform: uppercase;
+            padding-left: 1.7rem;
+            padding-right: 1.7rem;
+        }
+        
+        nav .navbar-toggler i {
+            color: black;
+        }
+        
+        nav .navbar-brand img {
+            height: 40%;
+            width: 50%;
+            text-align: left;
+            border-radius: 50%;
+            background: radial-gradient(transparent 20%, rgb(3, 41, 70) 70%);
+        }
+        
+        body {
+            background-color: rgb(12, 74, 122);
+            background-image: url('contentimg.jpg');
+            /* background-position: center; */
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        #home h1 {
+            font-size: 50px;
+            font-weight: 900;
+            text-transform: uppercase;
+            text-align: start;
+            letter-spacing: 5px;
+            color: rgb(0, 0, 0);
+        }
+        
+        #home p {
+            color: rgb(1, 12, 15);
+            text-align: center;
+            font-family: 'Amatic SC', cursive;
+            padding-top: 30px;
+            font-size: 25px;
+        }
+        
+        #home .col-xl-6 img {
+            height: 50%;
+        }
+        
+        #home {
+            height: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#"><img class="logo" src="img/logo.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarDropdown" aria-controls="navbarDropdown" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"><i class="fas fa-bars" style="color: black;"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link parent-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link parent-link" href="http://localhost/tspark/index.php">Customers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link parent-link" href="http://localhost/tspark/transfermoney.php">Transfer Money</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link parent-link" href="http://localhost/tspark/transactionhistory.php">Transaction History</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <div id="home" class="container" style="margin-top: 8%;">
+        <div class="row">
+            <div id="content" class="col-xl-6">
+                <h1>Basic Banking System</h1>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+
+</html>
